@@ -10,11 +10,12 @@
     margin: 0px;
     border: 0px;
     padding: 0px ;
+    
 }
   
 .testata {
     width: 100px;
-    background-color: white;
+    background-color: #fff;
     padding: 20px;
     
 }
@@ -22,7 +23,7 @@
 
 .gray {
 
-    background-color: whitesmoke;
+    background-color: #f4f4f4;
     
 }
 
@@ -30,11 +31,14 @@
     margin: 40px;
     background-color: white;
     width: 800px;
+    width 80%;
+    box-shadow: 0 0 10px;
 }
 
 .title {
-    margin: 0px;
-    padding: 0px;
+    margin: 0 auto;
+    padding: 20px;
     border: 0px;
     display: inline;
+    
 }
