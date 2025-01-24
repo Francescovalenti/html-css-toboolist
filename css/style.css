@@ -1,9 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-  }
-  
+
+}
 
 .container {
     width: 10000px;
@@ -14,7 +13,7 @@
 }
   
 .testata {
-    
+    width: 100px;
     background-color: white;
     padding: 20px;
     
@@ -23,5 +22,19 @@
 
 .gray {
 
-    background-color: rgba(219, 218, 214, 0.493);
+    background-color: whitesmoke;
+    
+}
+
+.first-title {
+    margin: 40px;
+    background-color: white;
+    width: 800px;
+}
+
+.title {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    display: inline;
 }
