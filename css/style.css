@@ -6,16 +6,17 @@
   
 
 .container {
-    width: 100%;
+    width: 10000px;
     background-color: white;
-    margin: 10 px;
-    border: 20px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px ;
 }
   
 .testata {
-
+    
     background-color: white;
-    padding-right: 0;
+    padding: 20px;
     
 }
     
