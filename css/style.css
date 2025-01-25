@@ -48,20 +48,28 @@
     margin: 0 auto;
     padding: 20px;
     border: 1px 
-    display: inline;
+    display: inline-block;
     box-sizing: content-box;
     font-family: sans-serif;
+    
+}
+
+.misur
+{
+    font-weight: 60px;
+    font-family: sans-serif;
+    display: inline-block;
 }
 
 .square{
 
-    width: 92%;
+    width: 88%;
     height: 80%;
     margin: 40px 40px;
-    padding: 10px 30px;
+    padding: 0px 30px 0px 30px;
     border: 1px solid white;
     display: inline-block;
-
+    box-sizing: content-box;
     box-shadow: 0 0 10px;
 }
 
