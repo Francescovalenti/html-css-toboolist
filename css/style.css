@@ -7,7 +7,7 @@
 }
 
 .cont {
-    width: 10000px;
+    width: 100%;
     background-color: white;
     margin: 0px;
     border: 0px;
@@ -17,7 +17,7 @@
 
 .header{
 
-    width: 150px;
+    width: 10px;
     padding: 20px
 }
   
@@ -47,24 +47,61 @@
 .title {
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid whitesmoke;
+    border: 1px 
     display: inline;
-    
+    box-sizing: content-box;
+    font-family: sans-serif;
 }
 
 .square{
 
-    width: 300px;
-    height:300px;
-    margin: 40px;
+    width: 92%;
+    height: 80%;
+    margin: 40px 40px;
+    padding: 10px 30px;
     border: 1px solid white;
     display: inline-block;
-    box-sizing: content-box;
+
+    box-shadow: 0 0 10px;
 }
 
 .cointaner {
  
 width: 90%;
 margin: 0 auto;
+box-sizing: content-box;
+background-color: #f4f4f4;
+
+}
+
+.tag {
+
+    padding: 20 px 30px;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+.list {
+   box-sizing: content-box;
+    display: inline-block;
+}
+
+.tog {
+    color: #f4f4f4;
+    display: inline-block;
+    border-radius: 30px;
+    weight 40px;
+    height: 20px;
+   
+}
+
+.edit {
+    background-color: blue;
+    font-weight: 10px;
+    display: inline-block;
 
 }
