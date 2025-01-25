@@ -1,5 +1,5 @@
 * {
-    
+
     margin: 0;
     padding: 0;
     box-sizing: content-box;
@@ -12,10 +12,10 @@
     margin: 0px;
     border: 0px;
     padding: 0px;
-        
+
 }
 
-#header{
+#header {
 
     width: 250px;
     padding-top: 15px;
@@ -23,14 +23,14 @@
     padding-left: 25px;
     display: inline-block;
 }
-  
+
 .testata {
     width: 100%;
     background-color: #fff;
     padding: 20px;
-    
+
 }
-    
+
 
 .gray {
 
@@ -52,16 +52,15 @@
 .title {
     margin: 0 auto;
     padding: 20px;
-    border: 0px 
-    display: inline-block;
+    border: 0px display: inline-block;
     box-sizing: content-box;
     font-family: sans-serif;
-    
-    
+
+
 }
 
-.misur
-{   font-size: 15px;
+.misur {
+    font-size: 15px;
     font-weight: 10;
     font-family: sans-serif;
     display: inline-block;
@@ -70,11 +69,21 @@
     margin-right: 20px;
 }
 
-.square{
+
+.cointaner {
+
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: content-box;
+    background-color: #f4f4f4;
+
+}
+
+.square {
 
     width: 89%;
     height: 80%;
-    margin: px 40px;
+    margin: 35px;
     padding: 0px 30px 0px 30px;
     border: 1px solid white;
     display: inline-block;
@@ -83,28 +92,35 @@
     background-color: white;
 }
 
-.cointaner {
- 
-width: 90%;
-margin: 0 auto;
-box-sizing: content-box;
-background-color: #f4f4f4;
-
+.best 
+{
+    width: 89%;
+    height: 80%;
+    margin: 1px;
+    padding: 0px 30px 0px 30px;
+    border: 1px solid white;
+    display: inline-block;
+    box-sizing: content-box;
+    box-shadow: none;
+    background-color: white;
+   
 }
 
-.tag {
 
+
+.tag {
+    margin-top: 2px;
     padding: 20px 30px;
     font-family: sans-serif;
 }
 
 ul {
     list-style: none;
-    
+
 }
 
 .list {
-   box-sizing: content-box;
+    box-sizing: content-box;
     display: inline-block;
 }
 
@@ -112,9 +128,9 @@ ul {
     color: #f4f4f4;
     display: inline-block;
     border-radius: 20px;
-    width:  40px;
+    width: 40px;
     height: 20px;
-   
+
 }
 
 .edit {
