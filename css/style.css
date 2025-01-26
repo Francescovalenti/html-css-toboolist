@@ -157,15 +157,17 @@ ul {
 
 .list {
     box-sizing: content-box;
-
+    display:inline-block;
     font-size: 15px;
     padding: 5px;
 }
 
 h2 {
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
+
+
 
 .font {
 
@@ -183,7 +185,7 @@ h2 {
     text-decoration: none;
     padding: 10px;
     display: inline-block;
-    border-radius: 15px;
+    border-radius: 13px;
 
 }
 
@@ -272,3 +274,4 @@ h2 {
     font-size: small;
 
 }
+
