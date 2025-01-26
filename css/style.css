@@ -39,20 +39,21 @@
 }
 
 .first-title {
-    margin: 40px 40px;
+    margin: 30px 10px 1px ;
     background-color: white;
-    width: 93%;
+    width: 95%;
     border: none;
-    box-shadow: none;
-    display: inline-block;
-    padding: 10px;
+    box-shadow:none;
+    display: block;
+    padding: 10px 0px 0px 18px;
 
 }
 
 .title {
     margin: 0 auto;
     padding: 20px;
-    border: 0px display: inline-block;
+    border: 0px;
+    display: block;
     box-sizing: content-box;
     font-family: sans-serif;
 
@@ -60,35 +61,70 @@
 }
 
 .misur {
+
     font-size: 15px;
     font-weight: 10;
     font-family: sans-serif;
-    display: inline-block;
+    display: block;
     text-align: left;
     padding: 10px;
     margin-right: 20px;
+}
+.button2 {
+    background-color: rgb(65, 65, 243);
+    color: black;
+    font-weight: 500px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    width: 5;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+.button3{
+
+    background-color: white;
+    border: 1px solid #000;
+    color: black;
+    font-weight: 500px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    width: 30;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+    padding: 10px;
+
+
 }
 
 
 .cointaner {
 
-    width: 90%;
-    margin: 0 auto;
+    width: 79%;
+    margin: 20px 0px 0px 120px;
     box-sizing: content-box;
     background-color: #f4f4f4;
+    display: block;
 
 }
 
 .square {
 
-    width: 89%;
-    height: 80%;
-    margin: 35px;
-    padding: 0px 30px 0px 30px;
+    width: 74%;
+    height: 70%;
+    margin: 0px 40px 0px 130px;
+    padding: 15px 20px 20px 18px;
     border: 1px solid white;
-    display: inline-block;
+    display: block;
     box-sizing: content-box;
-    box-shadow: none;
+    box-shadow:none;
     background-color: white;
 }
 
@@ -99,7 +135,7 @@
     margin: 1px;
     padding: 0px 30px 0px 30px;
     border: 1px solid white;
-    display: inline-block;
+    display: block;
     box-sizing: content-box;
     box-shadow: none;
     background-color: white;
@@ -122,20 +158,55 @@ ul {
 .list {
     box-sizing: content-box;
     display: inline-block;
+    font-size: 15px;
 }
 
-.tog {
+.font {
+
+    font-family: sans-serif;
+}
+
+
+
+.cta-button {
     color: #f4f4f4;
+    background-color: blue;
+    font-weight: 200px;
+    text-decoration: none;
+    padding: 10px;
     display: inline-block;
-    border-radius: 20px;
-    width: 40px;
-    height: 20px;
-
+    border-radius: 15px;
+    
 }
+.circle {
+    background-color: rgb(100, 248, 199);
+    color: rgb(225, 231, 229);
+    width: 20px;
+    height:20px;
+    line-height: 20px;
+    font-weight: 800px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.button {
+    background-color: red;
+    color: rgb(240, 207, 207);
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-weight: 800px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+}
+
 
 .edit {
-    background-color: blue;
+   
     font-weight: 100;
     display: inline-block;
+    font-size: small;
 
 }
