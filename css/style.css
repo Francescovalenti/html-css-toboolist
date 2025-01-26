@@ -39,11 +39,11 @@
 }
 
 .first-title {
-    margin: 30px 10px 1px ;
+    margin: 30px 10px 1px;
     background-color: white;
     width: 95%;
     border: none;
-    box-shadow:none;
+    box-shadow: none;
     display: block;
     padding: 10px 0px 0px 18px;
 
@@ -70,8 +70,9 @@
     padding: 10px;
     margin-right: 20px;
 }
+
 .button2 {
-    background-color: rgb(65, 65, 243);
+    background-color: rgb(105, 188, 255);
     color: black;
     font-weight: 500px;
     text-decoration: none;
@@ -86,7 +87,7 @@
 
 }
 
-.button3{
+.button3 {
 
     background-color: white;
     border: 1px solid #000;
@@ -124,12 +125,11 @@
     border: 1px solid white;
     display: block;
     box-sizing: content-box;
-    box-shadow:none;
+    box-shadow: none;
     background-color: white;
 }
 
-.best 
-{
+.best {
     width: 89%;
     height: 80%;
     margin: 1px;
@@ -139,7 +139,7 @@
     box-sizing: content-box;
     box-shadow: none;
     background-color: white;
-   
+
 }
 
 
@@ -157,13 +157,21 @@ ul {
 
 .list {
     box-sizing: content-box;
-    display: inline-block;
+
     font-size: 15px;
+    padding: 5px;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
 .font {
 
     font-family: sans-serif;
+    padding: 5px;
+
 }
 
 
@@ -171,26 +179,80 @@ ul {
 .cta-button {
     color: #f4f4f4;
     background-color: blue;
-    font-weight: 200px;
+    font-weight: 100px;
     text-decoration: none;
     padding: 10px;
     display: inline-block;
     border-radius: 15px;
-    
+
 }
+
+
 .circle {
     background-color: rgb(100, 248, 199);
     color: rgb(225, 231, 229);
     width: 20px;
-    height:20px;
+    height: 20px;
     line-height: 20px;
-    font-weight: 800px;
+    font-weight: 100px;
     display: inline-block;
     border-radius: 50%;
     text-align: center;
 }
 
-.button {
+.button4 {
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    font-weight: 100px;
+    display: inline-block;
+    border-radius: 15px;
+
+}
+
+.button5 {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    font-weight: 100x;
+    display: inline-block;
+    border-radius: 15px;
+
+}
+.button6
+{
+    background-color: orange;
+    color:white;
+    text-decoration: none;
+    padding: 6px;
+    font-weight: 100;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.button7{
+    background-color: rosybrown;
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    font-weight: 100;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.button8 {
+    background-color: #03bb85;
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    font-weight: 100;
+    display: inline-block;
+    border-radius: 15px;
+
+}
+    .button {
     background-color: red;
     color: rgb(240, 207, 207);
     width: 20px;
@@ -204,7 +266,7 @@ ul {
 
 
 .edit {
-   
+
     font-weight: 100;
     display: inline-block;
     font-size: small;
